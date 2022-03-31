@@ -42,7 +42,7 @@ export default {
     return {};
   },
   created() {
-    ListarPokemons.ListarPokemons(151, 200).then((response) => {
+    ListarPokemons.ListarPokemons("151", "200").then((response) => {
       console.log(response);
     });
   },
